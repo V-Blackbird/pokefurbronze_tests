@@ -515,6 +515,11 @@ const u8 gText_WinEarnsPrizeMoney[] = _("{B_TRAINER1_NAME}: Well...\nI hope {B_O
 const u8 gText_HowDissapointing[] = _("{B_TRAINER1_NAME}: I hope {B_PLAYER_MON1_NAME}\nis all right...\p");
 static const u8 sText_NowWatchClosely[] = _("PROF. BLACKBIRD: Now watch\nclosely, kids...");
 static const u8 sText_AreYouReadyVill[] = _("VILL,\nare you ready?");
+static const u8 sText_PkmnAppeared[] = _("{B_OPPONENT_MON1_NAME} appeared!\p!");
+static const u8 sText_UsedFists[] = _("{B_PLAYER_NAME} used TACKLE!");
+static const u8 sText_AvoidedAttack[] = _("{B_OPPONENT_MON1_NAME} avoided\nthe attack!");
+static const u8 sText_NoMon[] = _("{B_PLAYER_NAME} has no\nPOKéMON left!");
+static const u8 sText_Waited[] = _("{B_PLAYER_NAME}: No! I've waited for\nthis moment all my life!");
 
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_START] = {
     [STRINGID_TRAINER1LOSETEXT - BATTLESTRINGS_TABLE_START]              = sText_Trainer1LoseText,
@@ -892,7 +897,12 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_ST
     [STRINGID_TRAINER1MON2COMEBACK - BATTLESTRINGS_TABLE_START]          = sText_Trainer1RecallPkmn2,
     [STRINGID_TRAINER1MON1AND2COMEBACK - BATTLESTRINGS_TABLE_START]      = sText_Trainer1RecallBoth,
     [STRINGID_NOWWATCHCLOSELY - BATTLESTRINGS_TABLE_START]               = sText_NowWatchClosely,
-    [STRINGID_AREYOUREADYVILL - BATTLESTRINGS_TABLE_START]               = sText_AreYouReadyVill
+    [STRINGID_AREYOUREADYVILL - BATTLESTRINGS_TABLE_START]               = sText_AreYouReadyVill,
+    [STRINGID_PKMNAPPEARED - BATTLESTRINGS_TABLE_START]                  = sText_PkmnAppeared,
+    [STRINGID_USEDFISTS - BATTLESTRINGS_TABLE_START]                     = sText_UsedFists,
+    [STRINGID_AVOIDED - BATTLESTRINGS_TABLE_START]                       = sText_AvoidedAttack,
+    [STRINGID_NOMON - BATTLESTRINGS_TABLE_START]                         = sText_NoMon,
+    [STRINGID_WAITEDFORTHAT - BATTLESTRINGS_TABLE_START]                 = sText_Waited
 };
 
 const u16 gMissStringIds[] =
@@ -1284,7 +1294,8 @@ const u8 gText_WhatWillPkmnDo[] = _("What will\n{B_ACTIVE_NAME_WITH_PREFIX} do?"
 const u8 gText_WhatWillPlayerThrow[] = _("What will {B_PLAYER_NAME}\nthrow?");
 const u8 gText_WhatWillOldManDo[] = _("What will PROF.\nBLACKBIRD do?");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}Link standby…");
-const u8 gText_BattleMenu[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}FIGHT{CLEAR_TO 56}BAG\n{PKMN}{CLEAR_TO 56}RUN");
+const u8 gText_BattleMenu[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}FIGHT{CLEAR_TO 56}{PKMN}\nITEM{CLEAR_TO 56}RUN");
+const u8 gText_TutorialMenu[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}FIGHT{CLEAR_TO 56}{PKMN}\nITEM{CLEAR_TO 56}RUN");
 const u8 gText_SafariZoneMenu[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}BALL{CLEAR_TO 56}BAIT\nROCK{CLEAR_TO 56}RUN");
 const u8 gText_MoveInterfacePP[] = _("PP ");
 const u8 gText_MoveInterfaceType[] = _("TYPE/");

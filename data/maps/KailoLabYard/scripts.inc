@@ -241,6 +241,8 @@ KailoLabYard_Movement_StartBlackbirdMeeting_GilanJumps::
   player_run_down
   player_run_left
   player_run_left
+  player_run_left
+  jump_2_left
   step_end
 
 KailoLabYard_Movement_StartBlackbirdMeeting_PlayerMiddle::

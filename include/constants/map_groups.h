@@ -279,6 +279,9 @@
 #define MAP_KAILO_TOWN_DELICIOUS_CAFE          (2 | (4 << 8))
 #define MAP_KAILO_TOWN_POKEMON_CENTER_1F       (3 | (4 << 8))
 #define MAP_KAILO_TOWN_POKEMON_CENTER_2F       (4 | (4 << 8))
+#define MAP_KAILO_TOWN_PLAYERS_HOUSE_1F        (5 | (4 << 8))
+#define MAP_KAILO_TOWN_PROF_BLACKBIRDS_LAB     (6 | (4 << 8))
+#define MAP_KAILO_TOWN_GYM                     (7 | (4 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (5 << 8))

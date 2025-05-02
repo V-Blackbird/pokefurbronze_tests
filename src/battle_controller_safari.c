@@ -168,16 +168,16 @@ static void HandleInputChooseAction(void)
         switch (gActionSelectionCursor[gActiveBattler])
         {
         case 0:
-            BtlController_EmitTwoReturnValues(1, B_ACTION_SAFARI_BALL, 0);
+            BtlController_EmitTwoReturnValues(1, B_ACTION_TUTORIAL_USE_FISTS, 0);
             break;
         case 1:
-            BtlController_EmitTwoReturnValues(1, B_ACTION_SAFARI_BAIT, 0);
+            BtlController_EmitTwoReturnValues(1, B_ACTION_USE_ITEM, 0);
             break;
         case 2:
-            BtlController_EmitTwoReturnValues(1, B_ACTION_SAFARI_GO_NEAR, 0);
+            BtlController_EmitTwoReturnValues(1, B_ACTION_TUTORIAL_NO_MON, 0);
             break;
         case 3:
-            BtlController_EmitTwoReturnValues(1, B_ACTION_SAFARI_RUN, 0);
+            BtlController_EmitTwoReturnValues(1, B_ACTION_TUTORIAL_RUN, 0);
             break;
         }
         SafariBufferExecCompleted();
@@ -439,7 +439,7 @@ static void SafariHandleChooseAction(void)
 
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseActionAfterDma3;
     BattlePutTextOnWindow(gText_EmptyString3, B_WIN_MSG);
-    BattlePutTextOnWindow(gText_SafariZoneMenu, B_WIN_ACTION_MENU);
+    BattlePutTextOnWindow(gText_TutorialMenu, B_WIN_ACTION_MENU);
     for (i = 0; i < 4; ++i)
         ActionSelectionDestroyCursorAt(i);
     ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);

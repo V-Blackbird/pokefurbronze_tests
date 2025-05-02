@@ -4512,6 +4512,42 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/KailoTown_PokemonCenter_2F/border.bin",
       "blockdata_filepath": "data/layouts/KailoTown_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_KAILO_TOWN_PLAYERS_HOUSE_1F",
+      "name": "KailoTown_PlayersHouse_1F_Layout",
+      "width": 12,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/KailoTown_PlayersHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/KailoTown_PlayersHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_KAILO_TOWN_PROF_BLACKBIRDS_LAB",
+      "name": "KailoTown_ProfBlackbirdsLab_Layout",
+      "width": 23,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/KailoTown_ProfBlackbirdsLab/border.bin",
+      "blockdata_filepath": "data/layouts/KailoTown_ProfBlackbirdsLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_KAILO_TOWN_GYM",
+      "name": "KailoTown_Gym_Layout",
+      "width": 19,
+      "height": 12,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_ViridianGym",
+      "border_filepath": "data/layouts/KailoTown_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/KailoTown_Gym/map.bin"
     }
   ]
 }

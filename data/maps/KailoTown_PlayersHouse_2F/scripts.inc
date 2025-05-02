@@ -16,9 +16,6 @@ KailoTown_PlayersHouse_2F_OnLoad::
   goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3, KailoTown_PlayersHouse_2F_EventScript_Battle_Setup
   end
 
-
-
-
 KailoTown_PlayersHouse_2F_OnTransition::
 	call_if_eq VAR_MAP_SCENE_KAILO_TOWN_PLAYERS_HOUSE_2F, 0, KailoTown_PlayersHouse_2F_EventScript_SetRespawn
 	end
@@ -34,10 +31,6 @@ KailoTown_PlayersHouse_2F_OnWarp::
 KailoTown_PlayersHouse_2F_FirstWarpIn::
 	setvar VAR_MAP_SCENE_KAILO_TOWN_PLAYERS_HOUSE_2F, 1
 	end
-
-
-
-
 
 KailoTown_PlayersHouse_2F_EventScript_Battle_Setup::
   goto_if_eq VAR_GOT_STARTER, 1, KailoTown_PlayersHouse_2F_EventScript_BattleInit

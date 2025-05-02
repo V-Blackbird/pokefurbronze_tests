@@ -318,7 +318,10 @@
     "KailoTown_PlayersHouse_2F_Window",
     "KailoTown_DeliciousCafe",
     "KailoTown_PokemonCenter_1F",
-    "KailoTown_PokemonCenter_2F"
+    "KailoTown_PokemonCenter_2F",
+    "KailoTown_PlayersHouse_1F",
+    "KailoTown_ProfBlackbirdsLab",
+    "KailoTown_Gym"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

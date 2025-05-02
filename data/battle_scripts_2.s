@@ -50,6 +50,9 @@ gBattlescriptsForSafariActions::
 	.4byte BattleScript_WatchesCarefully
 	.4byte BattleScript_ThrowRock
 	.4byte BattleScript_ThrowBait
+	.4byte BattleScript_UsedFists
+	.4byte BattleScript_NoMon
+	.4byte BattleScript_NoRun
 	.4byte BattleScript_LeftoverWallyPrepToThrow
 
 BattleScript_ThrowBall::
@@ -229,6 +232,23 @@ BattleScript_ThrowBait::
 	printstring STRINGID_THREWBAIT
 	waitmessage B_WAIT_TIME_LONG
 	playanimation BS_ATTACKER, B_ANIM_BAIT_THROW
+	end2
+
+BattleScript_UsedFists::
+	printstring STRINGID_USEDFISTS
+	waitmessage B_WAIT_TIME_LONG
+	printstring STRINGID_AVOIDED
+	waitmessage B_WAIT_TIME_LONG
+	end2
+
+BattleScript_NoMon::
+	printstring STRINGID_NOMON
+	waitmessage B_WAIT_TIME_LONG
+	end2
+
+BattleScript_NoRun::
+	printstring STRINGID_WAITEDFORTHAT
+	waitmessage B_WAIT_TIME_LONG
 	end2
 
 BattleScript_LeftoverWallyPrepToThrow::

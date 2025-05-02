@@ -1419,7 +1419,7 @@ static void LoadFieldEffectPalette_(u8 fieldEffect, bool8 updateGammaType)
     const struct SpriteTemplate *spriteTemplate;
 
     spriteTemplate = gFieldEffectObjectTemplatePointers[fieldEffect];
-    if (spriteTemplate->paletteTag != 0xffff)
+    if (spriteTemplate->paletteTag != TAG_NONE)
     {
         LoadObjectEventPalette(spriteTemplate->paletteTag);
         if (updateGammaType)

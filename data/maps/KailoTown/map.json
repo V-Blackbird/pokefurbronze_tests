@@ -27,9 +27,9 @@
       "x": 5,
       "y": 5,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
-      "movement_range_y": 0,
+      "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "KailoTown_EventScript_Damien",
@@ -97,7 +97,7 @@
       "x": 4,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_KAILO_LAB_YARD",
+      "dest_map": "MAP_KAILO_TOWN_PROF_BLACKBIRDS_LAB",
       "dest_warp_id": "0"
     },
     {
@@ -118,15 +118,15 @@
       "x": 20,
       "y": 10,
       "elevation": 0,
-      "dest_map": "MAP_KAILO_TOWN_PLAYERS_HOUSE_2F",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_KAILO_TOWN_PLAYERS_HOUSE_1F",
+      "dest_warp_id": "1"
     },
     {
       "x": 13,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "3"
+      "dest_map": "MAP_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE",
+      "dest_warp_id": "2"
     },
     {
       "x": 29,
@@ -139,7 +139,7 @@
       "x": 5,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_KAILO_TOWN",
+      "dest_map": "MAP_KAILO_TOWN_GYM",
       "dest_warp_id": "0"
     }
   ],
@@ -156,7 +156,7 @@
     {
       "type": "trigger",
       "x": 21,
-      "y": 18,
+      "y": 19,
       "elevation": 0,
       "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
       "var_value": "1",
@@ -165,7 +165,7 @@
     {
       "type": "trigger",
       "x": 21,
-      "y": 18,
+      "y": 19,
       "elevation": 0,
       "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
       "var_value": "4",
@@ -174,7 +174,7 @@
     {
       "type": "trigger",
       "x": 21,
-      "y": 18,
+      "y": 19,
       "elevation": 0,
       "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
       "var_value": "2",
@@ -183,7 +183,7 @@
     {
       "type": "trigger",
       "x": 21,
-      "y": 18,
+      "y": 19,
       "elevation": 0,
       "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
       "var_value": "3",

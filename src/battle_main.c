@@ -51,6 +51,9 @@ static void HandleAction_Run(void);
 static void HandleAction_WatchesCarefully(void);
 static void HandleAction_SafariZoneBallThrow(void);
 static void HandleAction_ThrowBait(void);
+static void HandleAction_Fists(void);
+static void HandleAction_NoMon(void);
+static void HandleAction_NoRun(void);
 static void HandleAction_ThrowRock(void);
 static void HandleAction_SafariZoneRun(void);
 static void HandleAction_OldManBallThrow(void);
@@ -569,6 +572,9 @@ static void (*const sTurnActionsFuncsTable[])(void) =
     [B_ACTION_SAFARI_BALL]            = HandleAction_SafariZoneBallThrow,
     [B_ACTION_SAFARI_BAIT]            = HandleAction_ThrowBait,
     [B_ACTION_SAFARI_GO_NEAR]         = HandleAction_ThrowRock,
+    [B_ACTION_TUTORIAL_NO_MON]        = HandleAction_NoMon,
+    [B_ACTION_TUTORIAL_USE_FISTS]     = HandleAction_Fists,
+    [B_ACTION_TUTORIAL_RUN]           = HandleAction_NoRun,
     [B_ACTION_SAFARI_RUN]             = HandleAction_SafariZoneRun,
     [B_ACTION_OLDMAN_THROW]           = HandleAction_OldManBallThrow,
     [B_ACTION_EXEC_SCRIPT]            = HandleAction_RunBattleScript,
@@ -4406,6 +4412,27 @@ static void HandleAction_ThrowRock(void)
         gBattleStruct->safariCatchFactor = 20;
     gBattlescriptCurrInstr = gBattlescriptsForSafariActions[1];
     gCurrentActionFuncId = B_ACTION_EXEC_SCRIPT;
+}
+
+static void HandleAction_Fists(void)
+{
+    gBattlerAttacker = gBattlerByTurnOrder[gCurrentTurnActionNumber];
+    gBattle_BG0_X = 0;
+    gBattle_BG0_Y = 0;
+    gBattlescriptCurrInstr = gBattlescriptsForSafariActions[3];
+    gCurrentActionFuncId = B_ACTION_EXEC_SCRIPT;
+}
+
+static void HandleAction_NoMon(void)
+{
+    gBattlescriptCurrInstr = gBattlescriptsForSafariActions[4];
+    gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
+}
+
+static void HandleAction_NoRun(void)
+{
+    gBattlescriptCurrInstr = gBattlescriptsForSafariActions[5];
+    gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
 }
 
 static void HandleAction_SafariZoneRun(void)

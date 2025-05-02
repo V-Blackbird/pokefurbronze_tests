@@ -2722,13 +2722,9 @@ const u8 gMonIcon_Chimecho[] = INCBIN_U8("graphics/pokemon/chimecho/icon.4bpp");
 const u8 gMonFootprint_Chimecho[] = INCBIN_U8("graphics/pokemon/chimecho/footprint.1bpp");
 
 const u32 gMonFrontPic_Vill[] = INCBIN_U32("graphics/pokemon/vill/front.4bpp.lz");
-const u32 gMonPalette_Vill[] = INCBIN_U32("graphics/pokemon/vill/normal.gbapal.lz");
 const u32 gMonBackPic_Vill[] = INCBIN_U32("graphics/pokemon/vill/back.4bpp.lz");
-const u8 gMonIcon_Vill[] = INCBIN_U8("graphics/pokemon/vill/icon.4bpp");
-const u8 gMonFootprint_Vill[] = INCBIN_U8("graphics/pokemon/vill/footprint.1bpp");
 
 const u32 gMonFrontPic_Gilan[] = INCBIN_U32("graphics/pokemon/gilan/front.4bpp.lz");
-const u32 gMonPalette_Gilan[] = INCBIN_U32("graphics/pokemon/gilan/normal.gbapal.lz");
 
 const u32 gMonFrontPic_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/front.4bpp.lz");
 const u32 gMonPalette_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/normal.gbapal.lz");
@@ -2738,7 +2734,6 @@ const u8 gMonFootprint_Glaceon[] = INCBIN_U8("graphics/pokemon/glaceon/footprint
 const u32 gMonShinyPalette_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/shiny.gbapal.lz");
 
 const u32 gMonFrontPic_Everest[] = INCBIN_U32("graphics/pokemon/everest/front.4bpp.lz");
-const u32 gMonPalette_Everest[] = INCBIN_U32("graphics/pokemon/everest/normal.gbapal.lz");
 
 const u32 gMonFrontPic_Leafeon[] = INCBIN_U32("graphics/pokemon/leafeon/front.4bpp.lz");
 const u32 gMonPalette_Leafeon[] = INCBIN_U32("graphics/pokemon/leafeon/normal.gbapal.lz");

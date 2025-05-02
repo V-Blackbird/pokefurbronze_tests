@@ -97,7 +97,7 @@ KailoTownFake_EventScript_IntroScript::
   doweather
   delay 30
   fadescreen FADE_TO_WHITE
-  setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1
+  setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 0
   setflag FLAG_IS_INTRO_COMPLETED
   setflag FLAG_WHITEOUT_VILL
   setflag FLAG_HIDE_CUTSCENE_DUMMIES

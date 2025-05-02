@@ -1396,3 +1396,12 @@ Text_TestMsg::
 
 	.include "data/maps/KailoTown_PokemonCenter_2F/scripts.inc"
 	.include "data/maps/KailoTown_PokemonCenter_2F/text.inc"
+
+	.include "data/maps/KailoTown_PlayersHouse_1F/scripts.inc"
+	.include "data/maps/KailoTown_PlayersHouse_1F/text.inc"
+
+	.include "data/maps/KailoTown_ProfBlackbirdsLab/scripts.inc"
+	.include "data/maps/KailoTown_ProfBlackbirdsLab/text.inc"
+
+	.include "data/maps/KailoTown_Gym/scripts.inc"
+	.include "data/maps/KailoTown_Gym/text.inc"

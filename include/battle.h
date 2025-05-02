@@ -46,6 +46,9 @@
 #define B_ACTION_FINISHED                  12
 #define B_ACTION_CANCEL_PARTNER            12 // when choosing an action
 #define B_ACTION_NOTHING_FAINTED           13 // when choosing an action
+#define B_ACTION_TUTORIAL_NO_MON           14
+#define B_ACTION_TUTORIAL_USE_FISTS        15
+#define B_ACTION_TUTORIAL_RUN              16
 #define B_ACTION_NONE                      0xFF
 
 #define MAX_TRAINER_ITEMS 4
