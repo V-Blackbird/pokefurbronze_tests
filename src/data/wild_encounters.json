@@ -25300,7 +25300,7 @@
             ]
           },
           "water_mons": {
-            "encounter_rate": 100,
+            "encounter_rate": 180,
             "mons": [
               {
                 "min_level": 100,
@@ -25330,7 +25330,7 @@
             ]
           },
           "fishing_mons": {
-            "encounter_rate": 100,
+            "encounter_rate": 180,
             "mons": [
               {
                 "min_level": 100,

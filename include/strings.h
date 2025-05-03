@@ -215,6 +215,12 @@ extern const u8 gString_SlotMachineControls[];
 extern const u8 gText_EmptyString3[];
 extern const u8 gText_SafariZoneMenu[];
 extern const u8 gText_TutorialMenu[];
+extern const u8 sText_PkmnAppeared[];
+extern const u8 sText_UsedFists[];
+extern const u8 sText_AvoidedAttack[];
+extern const u8 sText_NoMon[];
+extern const u8 sText_Waited[];
+extern const u8 gText_WhatWillPlayerDo[];
 extern const u8 gText_WhatWillPlayerThrow[];
 
 // battle_controller_player

@@ -4416,17 +4416,15 @@ static void HandleAction_ThrowRock(void)
 
 static void HandleAction_Fists(void)
 {
-    gBattlerAttacker = gBattlerByTurnOrder[gCurrentTurnActionNumber];
-    gBattle_BG0_X = 0;
-    gBattle_BG0_Y = 0;
     gBattlescriptCurrInstr = gBattlescriptsForSafariActions[3];
-    gCurrentActionFuncId = B_ACTION_EXEC_SCRIPT;
+    gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
 }
 
 static void HandleAction_NoMon(void)
 {
-    gBattlescriptCurrInstr = gBattlescriptsForSafariActions[4];
-    gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
+    BattleStringExpandPlaceholdersToDisplayedString(sText_NoMon);
+    BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_OAK_OLD_MAN);
+    ++gBattleStruct->simulatedInputState[0];
 }
 
 static void HandleAction_NoRun(void)

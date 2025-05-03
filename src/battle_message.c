@@ -518,7 +518,7 @@ static const u8 sText_AreYouReadyVill[] = _("VILL,\nare you ready?");
 static const u8 sText_PkmnAppeared[] = _("{B_OPPONENT_MON1_NAME} appeared!\p!");
 static const u8 sText_UsedFists[] = _("{B_PLAYER_NAME} used TACKLE!");
 static const u8 sText_AvoidedAttack[] = _("{B_OPPONENT_MON1_NAME} avoided\nthe attack!");
-static const u8 sText_NoMon[] = _("{B_PLAYER_NAME} has no\nPOKéMON left!");
+const u8 sText_NoMon[] = _("{B_PLAYER_NAME} has no\nPOKéMON left!");
 static const u8 sText_Waited[] = _("{B_PLAYER_NAME}: No! I've waited for\nthis moment all my life!");
 
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_START] = {

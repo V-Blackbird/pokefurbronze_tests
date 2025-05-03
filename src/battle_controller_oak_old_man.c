@@ -290,7 +290,7 @@ static void SimulateInputChooseAction(void)
             // Move cursor to BAG
             PlaySE(SE_SELECT);
             ActionSelectionDestroyCursorAt(0);
-            ActionSelectionCreateCursorAt(1, 0);
+            ActionSelectionCreateCursorAt(2, 0);
             gBattleStruct->simulatedInputState[2] = 64;
             ++gBattleStruct->simulatedInputState[0];
         }
